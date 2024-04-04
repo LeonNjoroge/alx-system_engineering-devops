@@ -41,5 +41,5 @@ listen	balancer
 
 	# backend config settings
 	balance roundrobin
-	server 61590-web-01 18.204.7.186:80 check
-	server 61590-web-02 3.83.245.14:80 check
+	server 61590-web-01 35.175.102.15:80 check
+	server 61590-web-02 52.86.208.77:80 check
