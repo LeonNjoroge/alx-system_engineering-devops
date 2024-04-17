@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Check if the password argument is provided
 if [ -z "$1" ]; then
-    echo "Usage: $0 <mysql_password>"
+    echo "Usage: $0 <myPass123>"
     exit 1
 fi
 
