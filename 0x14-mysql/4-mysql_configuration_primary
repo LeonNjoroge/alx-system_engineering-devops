@@ -21,3 +21,4 @@
 !includedir /etc/mysql/mysql.conf.d/
 [mysqld]
 server-id = 1
+binlog_do_db = tyrell_corp
