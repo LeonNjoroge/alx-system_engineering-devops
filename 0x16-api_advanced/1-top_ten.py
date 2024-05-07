@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-script prints the titles of the first 10 hot posts 
+script prints the titles of the first 10 hot posts
 listed for a given subreddit
 """
 
@@ -24,7 +24,6 @@ def top_ten(subreddit):
 
     response = get(url, headers=user_agent, params=params)
     results = response.json()
-
 
     try:
         my_data = results.get('data').get('children')
